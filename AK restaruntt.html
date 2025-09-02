@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Delizia Ristorante</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1600891963935-676ccdba0ba6?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 4rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.5rem;
+      max-width: 600px;
+    }
+    nav {
+      background: #111;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #f4a261;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .menu-item {
+      margin-bottom: 1.5rem;
+    }
+    .menu-item h3 {
+      margin: 0;
+      color: #e76f51;
+    }
+    .menu-item p {
+      margin: 0.2rem 0 0.5rem;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .contact-form button {
+      background: #e76f51;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background: #d65a3f;
+    }
+    footer {
+      background: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Delizia Ristorante</h1>
+    <p>Authentic Italian Cuisine Served Fresh Daily</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Delizia, we believe in the magic of good food and great company. Nestled in the heart of the city, our family-owned restaurant has been serving traditional Italian dishes made with fresh, locally-sourced ingredients since 1995.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+      <h3>Margherita Pizza - $12</h3>
+      <p>Fresh mozzarella, tomatoes, and basil on a stone-baked crust.</p>
+    </div>
+    <div class="menu-item">
+      <h3>Fettuccine Alfredo - $14</h3>
+      <p>Classic creamy Alfredo sauce with hand-cut fettuccine pasta.</p>
+    </div>
+    <div class="menu-item">
